@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Key2Pokemons.Business\Key2Pokemons.Business.csproj" />
+    <ProjectReference Include="..\Key2Pokemons.DataAccess.Memory\Key2Pokemons.DataAccess.Memory.csproj" />
+    <ProjectReference Include="..\Key2Pokemons.Domain\Key2Pokemons.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
